@@ -1,0 +1,12 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore sensitive environment variables
+.env
+
+# Ignore all data files (logistics data should stay local)
+*.csv
+
+# Ignore Python cache files
+__pycache__/
+.DS_Store
